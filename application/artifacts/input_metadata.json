@@ -1,0 +1,51 @@
+{
+  "CreditScore": {
+    "min": 350.0,
+    "max": 850.0,
+    "median": 652.0
+  },
+  "Age": {
+    "min": 18.0,
+    "max": 92.0,
+    "median": 37.0
+  },
+  "Tenure": {
+    "min": 0.0,
+    "max": 10.0,
+    "median": 5.0
+  },
+  "Balance": {
+    "min": 0.0,
+    "max": 238387.56,
+    "median": 97055.145
+  },
+  "NumOfProducts": {
+    "min": 1.0,
+    "max": 4.0,
+    "median": 1.0
+  },
+  "HasCrCard": {
+    "min": 0.0,
+    "max": 1.0,
+    "median": 1.0
+  },
+  "IsActiveMember": {
+    "min": 0.0,
+    "max": 1.0,
+    "median": 1.0
+  },
+  "EstimatedSalary": {
+    "min": 11.58,
+    "max": 199992.48,
+    "median": 99446.94
+  },
+  "Geography": [
+    "France",
+    "Germany",
+    "Spain"
+  ],
+  "Gender": [
+    "Female",
+    "Male"
+  ]
+}

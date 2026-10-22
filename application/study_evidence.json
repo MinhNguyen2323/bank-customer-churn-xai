@@ -1,0 +1,40 @@
+{
+  "published_xgboost": {
+    "ROC_AUC": 0.870749,
+    "PR_AUC": 0.722263,
+    "Brier_Score": 0.098569,
+    "Locked_Threshold": 0.392,
+    "Final_Fit_Time_s": 0.132074,
+    "Inference_Latency_ms_per_customer": 0.004344,
+    "Artifact_Size_MB": 0.275768,
+    "Top20_Recall": 0.633907
+  },
+  "consensus_shap": [
+    ["Age", 0.299949],
+    ["NumOfProducts", 0.262710],
+    ["IsActiveMember", 0.147133],
+    ["Geography", 0.089315],
+    ["Balance", 0.069926],
+    ["Gender", 0.068474],
+    ["CreditScore", 0.021864],
+    ["EstimatedSalary", 0.020691],
+    ["Tenure", 0.011060],
+    ["HasCrCard", 0.008877]
+  ],
+  "robustness_xgboost_roc_delta_approx": {
+    "Moderate numeric noise": -0.0064,
+    "10% simulated masking": -0.0242,
+    "10% categorical substitution": -0.0050,
+    "Combined stress": -0.0200
+  },
+  "subgroup_prevalence": {
+    "Gender": {"Female": 0.2505, "Male": 0.1626},
+    "Geography": {"France": 0.1714, "Germany": 0.2996, "Spain": 0.1705},
+    "Age": {"18-34": 0.0672, "35-44": 0.1856, "45-54": 0.4675, "55+": 0.4012},
+    "Activity": {"Inactive": 0.2748, "Active": 0.1366}
+  },
+  "direct_sensitivity_xgboost": {
+    "Female_minus_Male_mean_probability": 0.0445,
+    "Geography_mean_within_customer_range": 0.083
+  }
+}
