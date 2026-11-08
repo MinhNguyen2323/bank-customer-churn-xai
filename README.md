@@ -48,6 +48,8 @@ data/
 
 requirements.txt
 README.md
+LICENSE
+Bank_Churn_XAI_Manuscript.pdf
 ```
 
 ## Reproducibility Notebook
